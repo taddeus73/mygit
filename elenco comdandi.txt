@@ -1,0 +1,6 @@
+git init
+git config --local/--global user.name "nome utente"
+git config --local/--global user.email "email@utente.xxx"
+
+git status
+git add
