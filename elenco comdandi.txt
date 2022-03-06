@@ -35,5 +35,4 @@ git checkout feature1
 git merge feauture1
 
 git log
-
 git reset #id_commit
