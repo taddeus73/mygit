@@ -8,3 +8,7 @@ git rm --cached -f nomefile
 
 git commit
 git commit -am "commento da mettere"
+
+git branch
+git branch feature1
+git checkout feature1
