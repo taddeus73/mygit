@@ -12,3 +12,4 @@ git commit -am "commento da mettere"
 git branch
 git branch feature1
 git checkout feature1
+git merge feauture1
