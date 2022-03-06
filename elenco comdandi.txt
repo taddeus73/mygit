@@ -36,3 +36,11 @@ git merge feauture1
 
 git log
 git reset #id_commit
+
+#collegare ad un repository remoto
+# https://techglimpse.com/git-push-github-token-based-passwordless/
+git remote add origin https://github.com/taddeus73/mygit.git
+git remote -v
+git push -u origin master
+git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
+git push https://xxx@github.com/taddeus73/mygit.git
