@@ -1,3 +1,23 @@
+# https://www.youtube.com/watch?v=Y3ohhzwm7UI
+# https://www.youtube.com/watch?v=dJ49Jiyb4mU
+
+- controllare le versioni del nostro codice
+- coordinare il lavoro
+- controllare chi cosa quando
+- tornare indietro
+- repository locali e remoti
+
+GIT INIT
+GIT STATUS
+GIT ADD
+GIT COMMIT
+GIT PUSH
+GIT PULL
+GIT CLONE
+GIT RESET [COMMIT]
+GIT LOG
+
+
 git init
 git config --local/--global user.name "nome utente"
 git config --local/--global user.email "email@utente.xxx"
