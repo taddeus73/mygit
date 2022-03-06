@@ -1,12 +1,15 @@
 # https://www.youtube.com/watch?v=Y3ohhzwm7UI
 # https://www.youtube.com/watch?v=dJ49Jiyb4mU
+# https://www.domsoria.com/2020/03/cosa-e-git-tutti-i-comandi-da-conoscere/
 
+A cosa serve:
 - controllare le versioni del nostro codice
 - coordinare il lavoro
 - controllare chi cosa quando
 - tornare indietro
 - repository locali e remoti
 
+Comandi che vedremo:
 GIT INIT
 GIT STATUS
 GIT ADD
@@ -17,30 +20,56 @@ GIT CLONE
 GIT RESET [COMMIT]
 GIT LOG
 
-
+INSTALLARE git per il proprio sistena operativo
+#creare un repository nella cartella corrente
 git init
+# configurare per tenere traccia di chi fa ... cosa ...
 git config --local/--global user.name "nome utente"
 git config --local/--global user.email "email@utente.xxx"
 
+# stato del repository
 git status
+
+# aggiungere un file al repository creato
 git add nomefile1 nomefile2 #git add .
+
+# cancellare un file unstaged
 git rm --cached -f nomefile
 
+# committare tutte le modiche fatte ai file staged
 git commit
 git commit -am "commento da mettere"
 
+# visualizziamo tutti i rami
 git branch
+
+# creare un nuovo ramo
 git branch feature1
+
+# cambiamo branch corrente
 git checkout feature1
+
+# dopo essere passati al branch master
+# facciamo il merge delle modifiche fatte nel brach feauture1 con il branch master
 git merge feauture1
 
+# log di tutte le modifiche fatte
 git log
+
+# ritorniamo an un commit precedente
 git reset #id_commit
 
-#collegare ad un repository remoto
+# collegare ad un repository remoto
 # https://techglimpse.com/git-push-github-token-based-passwordless/
+
+# colleghiamo il repository locale con uno remoto creato su GitHub
 git remote add origin https://github.com/taddeus73/mygit.git
+
+# elenco dei repository remoti
 git remote -v
+# inviamo i file locali al repository remoto
 git push -u origin master
+
+# stessa operazione ma fatta tramite token da generare su GitHub
 git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
-git push https://xxx@github.com/taddeus73/mygit.git
+git push https://tokenXxx@github.com/taddeus73/mygit.git
