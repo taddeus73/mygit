@@ -7,3 +7,4 @@ git add nomefile1 nomefile2 #git add .
 git rm --cached -f nomefile
 
 git commit
+git commit -am "commento da mettere"
