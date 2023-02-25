@@ -75,3 +75,9 @@ git push -u origin master
 # stessa operazione ma fatta tramite token da generare su GitHub
 git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 git push https://tokenXxx@github.com/taddeus73/mygit.git
+
+# fetch from a specific branch
+git init
+git remote add origin https://github.com/Vitosh/VBA_personal.git
+git fetch origin develop
+git checkout develop
