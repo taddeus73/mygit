@@ -3,6 +3,7 @@
 # https://www.domsoria.com/2020/03/cosa-e-git-tutti-i-comandi-da-conoscere/
 # https://gist.github.com/tesseslol/da62aabec74c4fed889ea39c95efc6cc
 # http://rogerdudler.github.io/git-guide/index.it.html
+# https://stackoverflow.com/questions/4924002/git-pulling-from-specific-branch
 
 A cosa serve:
 - controllare le versioni del nostro codice
